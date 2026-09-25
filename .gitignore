@@ -1,0 +1,10 @@
+node_modules/
+.work/
+articles/
+
+# CDK
+cdk.out
+.cdk.staging
+
+# アカウントIDを含むため、公開時に備えてコミットしない
+cdk.context.json

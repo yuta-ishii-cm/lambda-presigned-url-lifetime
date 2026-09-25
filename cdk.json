@@ -1,0 +1,7 @@
+{
+  "app": "node infra/app.ts",
+  "watch": {
+    "include": ["infra/**", "src/**"],
+    "exclude": ["**/*.test.ts"]
+  }
+}
